@@ -24,13 +24,14 @@
 		CA30CBFE1AE4E53A00A78322 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3DAABD7A19D5644200C765E1 /* LaunchScreen.xib */; };
 		CA30CBFF1AE4E53C00A78322 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3DAABD7519D5644200C765E1 /* Main.storyboard */; };
 		CA6859CB1B1BE47200B9577E /* image.png in Resources */ = {isa = PBXBuildFile; fileRef = CA6859CA1B1BE47200B9577E /* image.png */; };
-		CA6C359B1BCE09A800F99F7D /* SkyWay.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CA6C359A1BCE09A800F99F7D /* SkyWay.framework */; };
-		CAC6AFC51C27B4DF002C856D /* libc++.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = CAC6AFC41C27B4DF002C856D /* libc++.tbd */; };
-		CAC6AFC71C27B4FA002C856D /* libicucore.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = CAC6AFC61C27B4FA002C856D /* libicucore.tbd */; };
-		CAC6AFC91C27B505002C856D /* libsqlite3.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = CAC6AFC81C27B505002C856D /* libsqlite3.tbd */; };
-		CAC6AFCB1C27B50F002C856D /* libstdc++.6.0.9.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = CAC6AFCA1C27B50F002C856D /* libstdc++.6.0.9.tbd */; };
 		CAD2621C1B8E9EAF000D4782 /* CoreVideo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CAD2621A1B8E9EAF000D4782 /* CoreVideo.framework */; };
 		CAD2621D1B8E9EAF000D4782 /* VideoToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CAD2621B1B8E9EAF000D4782 /* VideoToolbox.framework */; };
+		F4641CF71C47FB230059EA39 /* SkyWay.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F4641CF61C47FB230059EA39 /* SkyWay.framework */; };
+		F4641CF91C47FC0F0059EA39 /* libc.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = F4641CF81C47FC0F0059EA39 /* libc.dylib */; };
+		F4641CFB1C47FC1E0059EA39 /* libsqlite3.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = F4641CFA1C47FC1E0059EA39 /* libsqlite3.dylib */; };
+		F4641CFD1C47FC320059EA39 /* libstdc++.6.0.9.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = F4641CFC1C47FC320059EA39 /* libstdc++.6.0.9.dylib */; };
+		F4641CFF1C47FC460059EA39 /* libicucore.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = F4641CFE1C47FC460059EA39 /* libicucore.dylib */; };
+		F4641D031C47FDCF0059EA39 /* libstdc++.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = F4641D021C47FDCF0059EA39 /* libstdc++.dylib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -65,6 +66,13 @@
 		CAC6AFCA1C27B50F002C856D /* libstdc++.6.0.9.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libstdc++.6.0.9.tbd"; path = "usr/lib/libstdc++.6.0.9.tbd"; sourceTree = SDKROOT; };
 		CAD2621A1B8E9EAF000D4782 /* CoreVideo.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreVideo.framework; path = System/Library/Frameworks/CoreVideo.framework; sourceTree = SDKROOT; };
 		CAD2621B1B8E9EAF000D4782 /* VideoToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = VideoToolbox.framework; path = System/Library/Frameworks/VideoToolbox.framework; sourceTree = SDKROOT; };
+		F4641CF61C47FB230059EA39 /* SkyWay.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SkyWay.framework; path = "../SkyWay-iOS-SDK/SkyWay.framework"; sourceTree = "<group>"; };
+		F4641CF81C47FC0F0059EA39 /* libc.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libc.dylib; path = usr/lib/libc.dylib; sourceTree = SDKROOT; };
+		F4641CFA1C47FC1E0059EA39 /* libsqlite3.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsqlite3.dylib; path = usr/lib/libsqlite3.dylib; sourceTree = SDKROOT; };
+		F4641CFC1C47FC320059EA39 /* libstdc++.6.0.9.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = "libstdc++.6.0.9.dylib"; path = "usr/lib/libstdc++.6.0.9.dylib"; sourceTree = SDKROOT; };
+		F4641CFE1C47FC460059EA39 /* libicucore.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libicucore.dylib; path = usr/lib/libicucore.dylib; sourceTree = SDKROOT; };
+		F4641D001C47FC620059EA39 /* dylib1.o */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.objfile"; name = dylib1.o; path = usr/lib/dylib1.o; sourceTree = SDKROOT; };
+		F4641D021C47FDCF0059EA39 /* libstdc++.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = "libstdc++.dylib"; path = "usr/lib/libstdc++.dylib"; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -72,10 +80,12 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CAC6AFCB1C27B50F002C856D /* libstdc++.6.0.9.tbd in Frameworks */,
-				CAC6AFC91C27B505002C856D /* libsqlite3.tbd in Frameworks */,
-				CAC6AFC71C27B4FA002C856D /* libicucore.tbd in Frameworks */,
-				CAC6AFC51C27B4DF002C856D /* libc++.tbd in Frameworks */,
+				F4641D031C47FDCF0059EA39 /* libstdc++.dylib in Frameworks */,
+				F4641CFF1C47FC460059EA39 /* libicucore.dylib in Frameworks */,
+				F4641CFD1C47FC320059EA39 /* libstdc++.6.0.9.dylib in Frameworks */,
+				F4641CFB1C47FC1E0059EA39 /* libsqlite3.dylib in Frameworks */,
+				F4641CF91C47FC0F0059EA39 /* libc.dylib in Frameworks */,
+				F4641CF71C47FB230059EA39 /* SkyWay.framework in Frameworks */,
 				CAD2621C1B8E9EAF000D4782 /* CoreVideo.framework in Frameworks */,
 				CAD2621D1B8E9EAF000D4782 /* VideoToolbox.framework in Frameworks */,
 				3D1DDB5D1A2585CC0052B79C /* AudioToolbox.framework in Frameworks */,
@@ -85,7 +95,6 @@
 				3DD0C75B19E7B6BD006F9103 /* Foundation.framework in Frameworks */,
 				3DDB8D9B1A314C3C00FA2C4A /* GLKit.framework in Frameworks */,
 				3DDB8D971A314B2F00FA2C4A /* SystemConfiguration.framework in Frameworks */,
-				CA6C359B1BCE09A800F99F7D /* SkyWay.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -95,6 +104,13 @@
 		3DAABD5F19D5644200C765E1 = {
 			isa = PBXGroup;
 			children = (
+				F4641D021C47FDCF0059EA39 /* libstdc++.dylib */,
+				F4641D001C47FC620059EA39 /* dylib1.o */,
+				F4641CFE1C47FC460059EA39 /* libicucore.dylib */,
+				F4641CFC1C47FC320059EA39 /* libstdc++.6.0.9.dylib */,
+				F4641CFA1C47FC1E0059EA39 /* libsqlite3.dylib */,
+				F4641CF81C47FC0F0059EA39 /* libc.dylib */,
+				F4641CF61C47FB230059EA39 /* SkyWay.framework */,
 				3DF7608D19D910FC0084F124 /* Framework */,
 				3DAABD6919D5644200C765E1 /* Products */,
 				3DAABD6A19D5644200C765E1 /* SkyWay-iOS-Sample */,
@@ -192,11 +208,11 @@
 				TargetAttributes = {
 					3DAABD6719D5644200C765E1 = {
 						CreatedOnToolsVersion = 6.0.1;
-						DevelopmentTeam = YP76R8KFZE;
+						DevelopmentTeam = FL2T3KUT8D;
 					};
 				};
 			};
-			buildConfigurationList = 3DAABD6319D5644200C765E1 /* Build configuration list for PBXProject "SkyWay-iOS-Sample" */;
+			buildConfigurationList = 3DAABD6319D5644200C765E1 /* Build configuration list for PBXProject "SkywaySample" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -360,8 +376,10 @@
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/SkyWay-iOS-Sample/frameworks",
+					"/Users/junya_furudo/Development/iOS/skywaySample/SkyWay-iOS-SDK",
 				);
 				INFOPLIST_FILE = "$(SRCROOT)/SkyWay-iOS-Sample/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				LIBRARY_SEARCH_PATHS = "";
 				ONLY_ACTIVE_ARCH = NO;
@@ -384,8 +402,10 @@
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/SkyWay-iOS-Sample/frameworks",
+					"/Users/junya_furudo/Development/iOS/skywaySample/SkyWay-iOS-SDK",
 				);
 				INFOPLIST_FILE = "$(SRCROOT)/SkyWay-iOS-Sample/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				LIBRARY_SEARCH_PATHS = "";
 				ONLY_ACTIVE_ARCH = NO;
@@ -400,7 +420,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		3DAABD6319D5644200C765E1 /* Build configuration list for PBXProject "SkyWay-iOS-Sample" */ = {
+		3DAABD6319D5644200C765E1 /* Build configuration list for PBXProject "SkywaySample" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				3DAABD8919D5644200C765E1 /* Debug */,
